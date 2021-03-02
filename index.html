@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1 id="preferito">Ciao Mondo</h1>
+    <script>
+      //chiedere all'utente nome, cognome e colore preferito e
+      //stampare nell'h1 in pagina una stringa cosi' composta:
+      //nomecognomecolore19
+      //prendendo i dati da quelli forniti dall'utente
+
+      var nome = prompt('Inserisci Nome');
+      var cognome = prompt('Inserisci Cognome');
+      var colore = prompt('Colore preferito');
+
+      document.getElementById('preferito').innerHTML = nome+cognome+colore;
+      console.log(nome, cognome, colore);
+    </script>
+  </body>
+</html>
